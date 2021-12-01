@@ -16,29 +16,15 @@ namespace RealBolig
         {
             InitializeComponent();
         }
-
-        /*public Panel MainPanel
-        {
-            get {return pContainer; }
-            set {pContainer = value; }
-        }*/
-
         private void AdminBolig_Load(object sender, EventArgs e)
         {
-            
+            //Home frm1 = new Home();
+            //frm1.Hide();
         }
 
-        private void btnCreateBolig_Click(object sender, EventArgs e)
+        private void btnTest_Click(object sender, EventArgs e)
         {
-            pContainer.Controls.Clear();
-            CreateBolig frmCBolig = new CreateBolig() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
-            frmCBolig.FormBorderStyle = FormBorderStyle.None;
-            this.pContainer.Controls.Add(frmCBolig);
-            AdminBolig frmABolig = new AdminBolig();
-            frmABolig.Hide();
-            frmCBolig.Show();
-        }
 
-        
+        }
     }
 }

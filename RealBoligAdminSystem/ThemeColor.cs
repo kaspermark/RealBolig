@@ -4,9 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Drawing;
 using System.Threading.Tasks;
-using Microsoft.Data.SqlClient;
-using DAL.Entities;
-using DAL.Operations;
 
 namespace RealBolig
 {

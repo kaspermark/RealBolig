@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RealBolig
 {
-    public partial class ReadKunder : Form
+    public partial class CreateKunde : Form
     {
-        public ReadKunder()
+        public CreateKunde()
         {
             InitializeComponent();
         }
